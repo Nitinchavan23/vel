@@ -9,7 +9,7 @@ import com.primusbank.library.AdminHomePage;
 import com.primusbank.library.PrimusBankHomePage;
 
 public class AdminLoginTest extends PrimusBankConstants 
-{
+{	// Login test
 	@Parameters({"uid","pwd"})
 	@Test	
 	public void adminLoginTest()
